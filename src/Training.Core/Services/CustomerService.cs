@@ -5,6 +5,14 @@ namespace Training.Core.Services
 {
     public class CustomerService : ICustomerService
     {
+        public List<CustomerModel> GetAllCustomersAsync()
+        {
+            var customers = new List<CustomerModel>();
+            CustomerModel customer = GetCustomerAsync(1);
+            customers.Add(customer);
+            return customers;
+        }
+
         public CustomerModel GetCustomerAsync(int id)
         {
             var laptop = new ProductModel { Id = 1,Description = "Laptop" };

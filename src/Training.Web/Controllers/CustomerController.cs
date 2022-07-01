@@ -15,6 +15,13 @@ namespace Training.Web.Controllers
         {
             _customerService = customerService;
         }
+
+        [HttpGet]
+        public List<CustomerModel> GetAll()
+        {
+            return _customerService.GetAllCustomersAsync();
+        }
+
         [HttpGet("/{id:int}")]
         public CustomerModel Get(int id)
         {
