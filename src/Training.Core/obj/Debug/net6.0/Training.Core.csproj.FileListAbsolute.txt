@@ -1,0 +1,12 @@
+C:\Source\vm-tfs\Git\Training\Vite\src\Training.Core\bin\Debug\net6.0\Training.Core.deps.json
+C:\Source\vm-tfs\Git\Training\Vite\src\Training.Core\bin\Debug\net6.0\Training.Core.dll
+C:\Source\vm-tfs\Git\Training\Vite\src\Training.Core\bin\Debug\net6.0\ref\Training.Core.dll
+C:\Source\vm-tfs\Git\Training\Vite\src\Training.Core\bin\Debug\net6.0\Training.Core.pdb
+C:\Source\vm-tfs\Git\Training\Vite\src\Training.Core\obj\Debug\net6.0\Training.Core.csproj.AssemblyReference.cache
+C:\Source\vm-tfs\Git\Training\Vite\src\Training.Core\obj\Debug\net6.0\Training.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Source\vm-tfs\Git\Training\Vite\src\Training.Core\obj\Debug\net6.0\Training.Core.AssemblyInfoInputs.cache
+C:\Source\vm-tfs\Git\Training\Vite\src\Training.Core\obj\Debug\net6.0\Training.Core.AssemblyInfo.cs
+C:\Source\vm-tfs\Git\Training\Vite\src\Training.Core\obj\Debug\net6.0\Training.Core.csproj.CoreCompileInputs.cache
+C:\Source\vm-tfs\Git\Training\Vite\src\Training.Core\obj\Debug\net6.0\Training.Core.dll
+C:\Source\vm-tfs\Git\Training\Vite\src\Training.Core\obj\Debug\net6.0\ref\Training.Core.dll
+C:\Source\vm-tfs\Git\Training\Vite\src\Training.Core\obj\Debug\net6.0\Training.Core.pdb

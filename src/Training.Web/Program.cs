@@ -1,6 +1,22 @@
-var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
+using Training.Core.Interfaces.Services;
+using Training.Core.Services;
 
-app.MapGet("/", () => "Hello World!");
+WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+builder.Services.AddScoped<ICustomerService, CustomerService>();
+
+WebApplication app = builder.Build();
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+app.MapControllers();
 
 app.Run();

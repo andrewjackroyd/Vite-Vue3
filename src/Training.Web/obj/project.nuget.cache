@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "5fM9UW8tXkwdB/YDom8it8zBnOCRUaLK+fG7n4VkU7O0EbVXEehZUifEqrgoZj9Hwqg+C/MQ4cwiHRK6q+iu5Q==",
+  "dgSpecHash": "L+v5i26IYPthmCumjN0ZAOBkqyGDLACWJxmuYcZ41+sEvbKNjsX4O4JMOeBTRh3TJNrsdXa4tyG//ysGEyA9Gg==",
   "success": true,
   "projectFilePath": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\Training.Web.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\andrew\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\andrew\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\andrew\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\andrew\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\andrew\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\andrew\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
   "logs": []
 }
