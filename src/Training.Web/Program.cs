@@ -10,9 +10,6 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<ICustomerService, CustomerService>();
 builder.Services.AddGraphQLServer().AddQueryType<CustomerQuery>();
 
-
-
-
 WebApplication app = builder.Build();
 
 if (app.Environment.IsDevelopment())
@@ -21,7 +18,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseHttpsRedirection();
 app.MapControllers();
+
 app.MapGraphQL();
 
 app.Run();
