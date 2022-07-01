@@ -1,0 +1,196 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\Training.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Core\\Training.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Core\\Training.Core.csproj",
+        "projectName": "Training.Core",
+        "projectPath": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Core\\Training.Core.csproj",
+        "packagesPath": "C:\\Users\\andrew\\.nuget\\packages\\",
+        "outputPath": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ArenaGroupEDM/_packaging/mstoreV5Packages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Infrastructure\\Training.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Infrastructure\\Training.Infrastructure.csproj",
+        "projectName": "Training.Infrastructure",
+        "projectPath": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Infrastructure\\Training.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\andrew\\.nuget\\packages\\",
+        "outputPath": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ArenaGroupEDM/_packaging/mstoreV5Packages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Core\\Training.Core.csproj": {
+                "projectPath": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Core\\Training.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\Training.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\Training.Web.csproj",
+        "projectName": "Training.Web",
+        "projectPath": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\Training.Web.csproj",
+        "packagesPath": "C:\\Users\\andrew\\.nuget\\packages\\",
+        "outputPath": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ArenaGroupEDM/_packaging/mstoreV5Packages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Core\\Training.Core.csproj": {
+                "projectPath": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Core\\Training.Core.csproj"
+              },
+              "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Infrastructure\\Training.Infrastructure.csproj": {
+                "projectPath": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Infrastructure\\Training.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
