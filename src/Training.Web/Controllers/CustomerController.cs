@@ -19,7 +19,8 @@ namespace Training.Web.Controllers
         [HttpGet("{id:int}")]
         public CustomerModel Get(int id)
         {
-            return _customerService.GetCustomerAsync(id);
+            CustomerModel customer = _customerService.GetCustomerAsync(id);
+            return customer;
         }
 
     }

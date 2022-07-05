@@ -31,13 +31,14 @@ const getData = () => {
 export default {
   name: 'App',
   setup() {
-    // const test = getData();
+    const test = getData();
+    console.log(test);
 
-    const { result } = useQuery(CUSTOMER_QUERY);
+    // const { result } = useQuery(CUSTOMER_QUERY);
 
-    console.log(result);
+    // console.log(result);
 
-    return { result };
+    // return { result };
   },
 };
 </script>
