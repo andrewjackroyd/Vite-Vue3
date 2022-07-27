@@ -1,5 +1,7 @@
 <template>
   <div>
+    <button @click="onFetchButtonClick">Fetch Data</button>
+    <span>{customer}</span>
     <!-- <p v-for="book in result.allBooks" :key="book.id">
       {{ book.title }}
     </p> -->
@@ -9,6 +11,18 @@
 <script lang="ts">
 import { useQuery } from '@vue/apollo-composable';
 import gql from 'graphql-tag';
+
+let customer = '';
+
+async function onFetchButtonClick() {
+  const response = await fetch('http://localhost:3000/api/customer/1', {
+    method: 'GET',
+    mode: 'no-cors',
+    cache: 'no-cache',
+    headers: { 'Content-type': 'application/json' },
+  });
+  customer = await response.json();
+}
 
 const CUSTOMER_QUERY = gql`
   {
@@ -28,17 +42,23 @@ const getData = () => {
   }).then((res) => console.log(res));
 };
 
+// const getDataViaProxy = () => {
+//   fetch('http://localhost:3000/api/customer/1', {
+//     method: 'GET',
+//     mode: 'no-cors',
+//     cache: 'no-cache',
+//     headers: { 'Content-type': 'application/json' },
+//   }).then((res) => console.log(res));
+// };
+
 export default {
   name: 'App',
   setup() {
-    const test = getData();
-    console.log(test);
-
+    // const test = getDataViaProxy();
+    // console.log(test);
     // const { result } = useQuery(CUSTOMER_QUERY);
-
     // console.log(result);
-
-    // return { result };
+    // return { fetchCustomer };
   },
 };
 </script>
