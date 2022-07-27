@@ -8,12 +8,12 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, computed } from 'vue';
 import { useQuery } from '@vue/apollo-composable';
 import gql from 'graphql-tag';
 
 let customer = ref({});
-let graphCustomer = ref({});
+const enabled = ref(false);
 
 async function onFetchButtonClick() {
   const response = await fetch('http://localhost:3000/api/customer/1', {
@@ -34,13 +34,19 @@ const CUSTOMER_QUERY = gql`
     }
   }
 `;
-const { result, loading, error } = useQuery(CUSTOMER_QUERY);
-graphCustomer = result;
-// console.log(result.value);
+const { result, loading, error, refetch } = useQuery(
+  CUSTOMER_QUERY,
+  null,
+  () => ({
+    enabled: enabled.value,
+  })
+);
+
+const graphCustomer = computed(() => result.value);
 
 async function onGraphButtonClick() {
-  const result = useQuery(CUSTOMER_QUERY);
-  console.log(customer);
+  enabled.value = true;
+  refetch();
 }
 </script>
 
