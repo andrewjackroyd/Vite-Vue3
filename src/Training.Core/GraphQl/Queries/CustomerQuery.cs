@@ -12,7 +12,7 @@ namespace Training.Core.GraphQl.Queries
             _customerService = customerService;
         }
 
-        /* Only one method per Query */
+        /* Only one method per Query vs2022 */
         public CustomerModel GetCustomer(int id)
         {
             CustomerModel customer = _customerService.GetCustomerAsync(id);
