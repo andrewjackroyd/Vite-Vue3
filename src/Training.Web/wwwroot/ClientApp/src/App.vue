@@ -1,14 +1,16 @@
 <template>
   <div>
-    <button @click="onFetchButtonClick">Fetch Data</button>
-    <span>{customer}</span>
+    <div><button @click="onFetchButtonClick">Fetch Data</button></div>
+    <span>{{ customer }}</span>
+    <div><button @click="onGraphButtonClick">Fetch Graph Data</button></div>
+
     <!-- <p v-for="book in result.allBooks" :key="book.id">
       {{ book.title }}
     </p> -->
   </div>
 </template>
 
-<script lang="ts">
+<script setup>
 import { useQuery } from '@vue/apollo-composable';
 import gql from 'graphql-tag';
 
@@ -22,6 +24,7 @@ async function onFetchButtonClick() {
     headers: { 'Content-type': 'application/json' },
   });
   customer = await response.json();
+  console.log(customer);
 }
 
 const CUSTOMER_QUERY = gql`
@@ -32,35 +35,13 @@ const CUSTOMER_QUERY = gql`
     }
   }
 `;
+const { result, loading, error } = useQuery(CUSTOMER_QUERY);
+console.log(result.value);
 
-const getData = () => {
-  fetch('https://localhost:7208/api/customer/1', {
-    method: 'GET',
-    mode: 'no-cors',
-    cache: 'no-cache',
-    headers: { 'Content-type': 'application/json' },
-  }).then((res) => console.log(res));
-};
-
-// const getDataViaProxy = () => {
-//   fetch('http://localhost:3000/api/customer/1', {
-//     method: 'GET',
-//     mode: 'no-cors',
-//     cache: 'no-cache',
-//     headers: { 'Content-type': 'application/json' },
-//   }).then((res) => console.log(res));
-// };
-
-export default {
-  name: 'App',
-  setup() {
-    // const test = getDataViaProxy();
-    // console.log(test);
-    // const { result } = useQuery(CUSTOMER_QUERY);
-    // console.log(result);
-    // return { fetchCustomer };
-  },
-};
+async function onGraphButtonClick() {
+  const result = useQuery(CUSTOMER_QUERY);
+  console.log(customer);
+}
 </script>
 
 <style>

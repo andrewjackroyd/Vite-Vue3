@@ -1,7 +1,6 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   server: {
     proxy: {
@@ -12,7 +11,9 @@ export default defineConfig({
         rewrite: (path) => path.replace(/^\/api/, '')
       },
       '/graphql': {
-        target: 'https://localhost:7208/graphql', changeOrigin: true,
+        target: 'https://localhost:7208/graphql',
+        changeOrigin: true,
+        secure: false,
         rewrite: (path) => path.replace(/^\/graphql/, '')
       }
     }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "i1fVDTn0PO78PV5Qw9XsTHSNmd5Ukx6Xiakhh8LxjQc=",
+  "Hash": "Zvk50TfxeCgAcKqylRrXitXy90pXJ8dGubMrK0JOj7U=",
   "Source": "Training.Web",
   "BasePath": "_content/Training.Web",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\src\\.eslintrc.js",
+      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\.eslintrc.js",
       "SourceId": "Training.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\",
       "BasePath": "_content/Training.Web",
-      "RelativePath": "ClientApp/src/.eslintrc.js",
+      "RelativePath": "ClientApp/.eslintrc.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31,15 +31,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ClientApp\\src\\.eslintrc.js"
+      "OriginalItemSpec": "wwwroot\\ClientApp\\.eslintrc.js"
     },
     {
-      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\src\\.gitignore",
+      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\.gitignore",
       "SourceId": "Training.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\",
       "BasePath": "_content/Training.Web",
-      "RelativePath": "ClientApp/src/.gitignore",
+      "RelativePath": "ClientApp/.gitignore",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -48,15 +48,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ClientApp\\src\\.gitignore"
+      "OriginalItemSpec": "wwwroot\\ClientApp\\.gitignore"
     },
     {
-      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\src\\.prettierrc.json",
+      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\.prettierrc.json",
       "SourceId": "Training.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\",
       "BasePath": "_content/Training.Web",
-      "RelativePath": "ClientApp/src/.prettierrc.json",
+      "RelativePath": "ClientApp/.prettierrc.json",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,15 +65,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ClientApp\\src\\.prettierrc.json"
+      "OriginalItemSpec": "wwwroot\\ClientApp\\.prettierrc.json"
     },
     {
-      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\src\\index.html",
+      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\dist\\assets\\index.7e544596.css",
       "SourceId": "Training.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\",
       "BasePath": "_content/Training.Web",
-      "RelativePath": "ClientApp/src/index.html",
+      "RelativePath": "ClientApp/dist/assets/index.7e544596.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -82,15 +82,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ClientApp\\src\\index.html"
+      "OriginalItemSpec": "wwwroot\\ClientApp\\dist\\assets\\index.7e544596.css"
     },
     {
-      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\src\\package.json",
+      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\dist\\assets\\index.d85dbc12.js",
       "SourceId": "Training.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\",
       "BasePath": "_content/Training.Web",
-      "RelativePath": "ClientApp/src/package.json",
+      "RelativePath": "ClientApp/dist/assets/index.d85dbc12.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,15 +99,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ClientApp\\src\\package.json"
+      "OriginalItemSpec": "wwwroot\\ClientApp\\dist\\assets\\index.d85dbc12.js"
     },
     {
-      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\src\\package-lock.json",
+      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\dist\\favicon.ico",
       "SourceId": "Training.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\",
       "BasePath": "_content/Training.Web",
-      "RelativePath": "ClientApp/src/package-lock.json",
+      "RelativePath": "ClientApp/dist/favicon.ico",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -116,15 +116,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ClientApp\\src\\package-lock.json"
+      "OriginalItemSpec": "wwwroot\\ClientApp\\dist\\favicon.ico"
     },
     {
-      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\src\\public\\favicon.ico",
+      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\dist\\index.html",
       "SourceId": "Training.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\",
       "BasePath": "_content/Training.Web",
-      "RelativePath": "ClientApp/src/public/favicon.ico",
+      "RelativePath": "ClientApp/dist/index.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -133,15 +133,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ClientApp\\src\\public\\favicon.ico"
+      "OriginalItemSpec": "wwwroot\\ClientApp\\dist\\index.html"
     },
     {
-      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\src\\README.md",
+      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\index.html",
       "SourceId": "Training.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\",
       "BasePath": "_content/Training.Web",
-      "RelativePath": "ClientApp/src/README.md",
+      "RelativePath": "ClientApp/index.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -150,15 +150,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ClientApp\\src\\README.md"
+      "OriginalItemSpec": "wwwroot\\ClientApp\\index.html"
     },
     {
-      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\src\\src\\App.vue",
+      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\package.json",
       "SourceId": "Training.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\",
       "BasePath": "_content/Training.Web",
-      "RelativePath": "ClientApp/src/src/App.vue",
+      "RelativePath": "ClientApp/package.json",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -167,15 +167,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ClientApp\\src\\src\\App.vue"
+      "OriginalItemSpec": "wwwroot\\ClientApp\\package.json"
     },
     {
-      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\src\\src\\assets\\logo.png",
+      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\package-lock.json",
       "SourceId": "Training.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\",
       "BasePath": "_content/Training.Web",
-      "RelativePath": "ClientApp/src/src/assets/logo.png",
+      "RelativePath": "ClientApp/package-lock.json",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -184,15 +184,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ClientApp\\src\\src\\assets\\logo.png"
+      "OriginalItemSpec": "wwwroot\\ClientApp\\package-lock.json"
     },
     {
-      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\src\\src\\components\\HelloWorld.vue",
+      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\public\\favicon.ico",
       "SourceId": "Training.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\",
       "BasePath": "_content/Training.Web",
-      "RelativePath": "ClientApp/src/src/components/HelloWorld.vue",
+      "RelativePath": "ClientApp/public/favicon.ico",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -201,15 +201,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ClientApp\\src\\src\\components\\HelloWorld.vue"
+      "OriginalItemSpec": "wwwroot\\ClientApp\\public\\favicon.ico"
     },
     {
-      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\src\\src\\env.d.ts",
+      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\README.md",
       "SourceId": "Training.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\",
       "BasePath": "_content/Training.Web",
-      "RelativePath": "ClientApp/src/src/env.d.ts",
+      "RelativePath": "ClientApp/README.md",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -218,15 +218,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ClientApp\\src\\src\\env.d.ts"
+      "OriginalItemSpec": "wwwroot\\ClientApp\\README.md"
     },
     {
-      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\src\\src\\main.js",
+      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\src\\App.vue",
       "SourceId": "Training.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\",
       "BasePath": "_content/Training.Web",
-      "RelativePath": "ClientApp/src/src/main.js",
+      "RelativePath": "ClientApp/src/App.vue",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -235,15 +235,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ClientApp\\src\\src\\main.js"
+      "OriginalItemSpec": "wwwroot\\ClientApp\\src\\App.vue"
     },
     {
-      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\src\\src\\main.js.map",
+      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\src\\assets\\logo.png",
       "SourceId": "Training.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\",
       "BasePath": "_content/Training.Web",
-      "RelativePath": "ClientApp/src/src/main.js.map",
+      "RelativePath": "ClientApp/src/assets/logo.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -252,15 +252,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ClientApp\\src\\src\\main.js.map"
+      "OriginalItemSpec": "wwwroot\\ClientApp\\src\\assets\\logo.png"
     },
     {
-      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\src\\src\\main.ts",
+      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\src\\components\\HelloWorld.vue",
       "SourceId": "Training.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\",
       "BasePath": "_content/Training.Web",
-      "RelativePath": "ClientApp/src/src/main.ts",
+      "RelativePath": "ClientApp/src/components/HelloWorld.vue",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -269,15 +269,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ClientApp\\src\\src\\main.ts"
+      "OriginalItemSpec": "wwwroot\\ClientApp\\src\\components\\HelloWorld.vue"
     },
     {
-      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\src\\tsconfig.json",
+      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\src\\env.d.ts",
       "SourceId": "Training.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\",
       "BasePath": "_content/Training.Web",
-      "RelativePath": "ClientApp/src/tsconfig.json",
+      "RelativePath": "ClientApp/src/env.d.ts",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -286,15 +286,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ClientApp\\src\\tsconfig.json"
+      "OriginalItemSpec": "wwwroot\\ClientApp\\src\\env.d.ts"
     },
     {
-      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\src\\tsconfig.node.json",
+      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\src\\main.js",
       "SourceId": "Training.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\",
       "BasePath": "_content/Training.Web",
-      "RelativePath": "ClientApp/src/tsconfig.node.json",
+      "RelativePath": "ClientApp/src/main.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -303,15 +303,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ClientApp\\src\\tsconfig.node.json"
+      "OriginalItemSpec": "wwwroot\\ClientApp\\src\\main.js"
     },
     {
-      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\src\\vite.config.ts",
+      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\src\\main.js.map",
       "SourceId": "Training.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\",
       "BasePath": "_content/Training.Web",
-      "RelativePath": "ClientApp/src/vite.config.ts",
+      "RelativePath": "ClientApp/src/main.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -320,7 +320,75 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ClientApp\\src\\vite.config.ts"
+      "OriginalItemSpec": "wwwroot\\ClientApp\\src\\main.js.map"
+    },
+    {
+      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\src\\main.ts",
+      "SourceId": "Training.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\",
+      "BasePath": "_content/Training.Web",
+      "RelativePath": "ClientApp/src/main.ts",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ClientApp\\src\\main.ts"
+    },
+    {
+      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\tsconfig.json",
+      "SourceId": "Training.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\",
+      "BasePath": "_content/Training.Web",
+      "RelativePath": "ClientApp/tsconfig.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ClientApp\\tsconfig.json"
+    },
+    {
+      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\tsconfig.node.json",
+      "SourceId": "Training.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\",
+      "BasePath": "_content/Training.Web",
+      "RelativePath": "ClientApp/tsconfig.node.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ClientApp\\tsconfig.node.json"
+    },
+    {
+      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\vite.config.ts",
+      "SourceId": "Training.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\",
+      "BasePath": "_content/Training.Web",
+      "RelativePath": "ClientApp/vite.config.ts",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ClientApp\\vite.config.ts"
     }
   ]
 }
