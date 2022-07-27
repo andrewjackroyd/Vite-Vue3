@@ -4,9 +4,9 @@ using Training.Core.Models;
 
 namespace Training.Web.Controllers
 {
-    
-    [Route("api/[controller]")]
+
     [ApiController]
+    [Route("api/[controller]")]
     public class CustomerController : ControllerBase
     {
         private readonly ICustomerService _customerService;
@@ -15,10 +15,12 @@ namespace Training.Web.Controllers
         {
             _customerService = customerService;
         }
-        [HttpGet("/{id:int}")]
+
+        [HttpGet("{id:int}")]
         public CustomerModel Get(int id)
         {
-            return _customerService.GetCustomerAsync(id);
+            CustomerModel customer = _customerService.GetCustomerAsync(id);
+            return customer;
         }
 
     }

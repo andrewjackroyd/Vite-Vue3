@@ -5,6 +5,7 @@ namespace Training.Core.Services
 {
     public class CustomerService : ICustomerService
     {
+
         public CustomerModel GetCustomerAsync(int id)
         {
             var laptop = new ProductModel { Id = 1,Description = "Laptop" };
