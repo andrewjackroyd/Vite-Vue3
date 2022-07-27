@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Zvk50TfxeCgAcKqylRrXitXy90pXJ8dGubMrK0JOj7U=",
+  "Hash": "bhS3lMyRZAL88GxNpNgNmo0C6JO1/P3kRNfwbwc6h9k=",
   "Source": "Training.Web",
   "BasePath": "_content/Training.Web",
   "Mode": "Default",
@@ -68,6 +68,23 @@
       "OriginalItemSpec": "wwwroot\\ClientApp\\.prettierrc.json"
     },
     {
+      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\dist\\assets\\index.6b768bd3.js",
+      "SourceId": "Training.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\",
+      "BasePath": "_content/Training.Web",
+      "RelativePath": "ClientApp/dist/assets/index.6b768bd3.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ClientApp\\dist\\assets\\index.6b768bd3.js"
+    },
+    {
       "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\dist\\assets\\index.7e544596.css",
       "SourceId": "Training.Web",
       "SourceType": "Discovered",
@@ -83,23 +100,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\ClientApp\\dist\\assets\\index.7e544596.css"
-    },
-    {
-      "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\dist\\assets\\index.d85dbc12.js",
-      "SourceId": "Training.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\",
-      "BasePath": "_content/Training.Web",
-      "RelativePath": "ClientApp/dist/assets/index.d85dbc12.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ClientApp\\dist\\assets\\index.d85dbc12.js"
     },
     {
       "Identity": "C:\\Source\\vm-tfs\\Git\\Training\\Vite\\src\\Training.Web\\wwwroot\\ClientApp\\dist\\favicon.ico",

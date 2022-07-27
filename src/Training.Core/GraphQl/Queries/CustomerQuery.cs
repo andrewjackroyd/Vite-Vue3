@@ -12,9 +12,10 @@ namespace Training.Core.GraphQl.Queries
             _customerService = customerService;
         }
 
-        public CustomerModel GetCustomer()
+        /* Only one method per Query */
+        public CustomerModel GetCustomer(int id)
         {
-            CustomerModel customer = _customerService.GetCustomerAsync(1);
+            CustomerModel customer = _customerService.GetCustomerAsync(id);
             return customer;
         }
 

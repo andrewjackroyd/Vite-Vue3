@@ -11,7 +11,7 @@ namespace Training.Core.Services
             var laptop = new ProductModel { Id = 1,Description = "Laptop" };
             var customer = new CustomerModel
             {
-                Id = 1,
+                Id = id,
                 Code = "CUSTOMER-001",
                 Name = "Customer One"
             };

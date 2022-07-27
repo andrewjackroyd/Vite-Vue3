@@ -27,20 +27,29 @@ async function onFetchButtonClick() {
 }
 
 const CUSTOMER_QUERY = gql`
-  {
-    customer {
+  query getCustomerById($id: Int!) {
+    customer(id: $id) {
       id
       name
     }
   }
 `;
-const { result, loading, error, refetch } = useQuery(
-  CUSTOMER_QUERY,
-  null,
-  () => ({
-    enabled: enabled.value,
-  })
-);
+
+const variables = ref({
+  id: 1,
+});
+
+const { result, refetch } = useQuery(CUSTOMER_QUERY, variables, () => ({
+  enabled: enabled.value,
+}));
+
+function selectCustomer(id) {
+  variables.value = {
+    id,
+  };
+}
+
+selectCustomer(5);
 
 const graphCustomer = computed(() => result.value);
 
